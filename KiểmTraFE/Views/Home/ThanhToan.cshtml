@@ -1,0 +1,347 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="~/Content/MyStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logoleft">
+            Thanh toán
+        </div>
+        <div class="logoright">
+        </div>
+    </header>
+    <div id="container">
+        <div id="contentLeft">
+            <div id="delivery">
+                <h4>Chọn hình thức giao hàng</h4>
+                <div id="choice1">
+                    <input type="radio" value="check">
+                    <label>Giao tiết kiệm</label>
+                    <span class="hl_deli">-30K</span>
+                </div>
+                <fieldset>
+                    <legend><span class="hl_green">Gói: Giao thứ 5, trước 19h, 26/10</span></legend>
+                    <div class="smalldiscount">
+                        <div id="choice2">
+                            <div>GIAO TIẾT KIỆM</div>
+                            <div style="margin-left: 100px;">
+                                <s style="color:grey">42.000 <u>đ</u></s> 12.000 <u>đ</u>
+                            </div>
+                            <div class="ghichu">
+                                Được giao bởi GIA DỤNG VIỆT
+                            </div>
+                        </div>
+                        <div style="float:left"></div>
+                        <div id="Smallerchoice2" style="color:grey">
+                            Điện thoại Samsung Galaxy A54 (8GB/128GB) - Hàng...
+                        </div>
+                        <div id="choice2">
+                            <div style="color:grey">SL: x1</div>
+                            <div>8.480.000 <u>đ</u></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </fieldset>
+                <p>Shop khuyến mãi <span style="color:grey; font-size: small;">Nhập hoặc chọn mã <b>></b></span></p>
+            </div>
+            <div id="payment">
+                <div class="method">
+                    <h4>Chọn hình thức thanh toán</h4>
+                    <input class="option" type="radio" name="payment">
+                    <lable><i class="fas fa-money-bill"></i>Thanh toán tiền mặt khi nhận hàng</lable><br>
+                    <input class="option" type="radio" name="payment">
+                    <lable>Thanh toán bằng ví Viettel Money</lable><br>
+                    <input class="option" type="radio" name="payment">
+                    <lable>Thanh toán bằng ví MoMo</lable><br>
+                    <input class="option" type="radio" name="payment">
+                    <lable>Thanh toán bằng ví ZaloPay</lable><br>
+                    <input class="option" type="radio" name="payment">
+                    <lable>Thanh toán bằng VNPAY</lable><br>
+                    <input class="option" type="radio" name="payment">
+                    <lable>Thanh toán bằng thẻ quốc tế Visa, Master, JCB</lable><br>
+                </div>
+                <div>
+                    <button class="paybutton">
+                        <span style="font-size: 20px; font-weight: lighter;">+</span> <span style="font-weight: bold;">Thêm thẻ mới</span>
+                    </button>
+                </div>
+                <div class="bonus">
+                    <h4>Ưu đãi thanh toán thẻ</h4>
+                    <div class="table">
+                        <div class="row">
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold; font-weight: bold;">Freeship</div> <img class="smallBonus" src="~/Content/Images/ShinhanBank.png">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Thẻ Shinhan Platinum</div><i class="fas fa-exclamation" style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Không giới hạn</div>
+                            </div>
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Giảm 30k</div> <img class="smallBonus"
+                                                                                        src="~/Content/Images/ShinhanBank.png">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Đơn từ 200k</div><i class="fas fa-exclamation"
+                                                                                              style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Không giới hạn</div>
+                            </div>
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Giảm 50k</div> <img class="smallBonus"
+                                                                                        src="~/Content/Images/ShinhanBank.png">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Đơn từ 300k</div><i class="fas fa-exclamation"
+                                                                                              style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Không giới hạn</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Giảm 50k</div> <img class="smallBonus"
+                                                                                        src="~/Content/Images/ShinhanBank.png">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Đơn từ 300k</div><i class="fas fa-exclamation"
+                                                                                              style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Không giới hạn</div>
+                            </div>
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Giảm 70k</div> <img class="smallBonus"
+                                                                                        src="~/Content/Images/ShinhanBank.png">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Đơn từ 500k</div><i class="fas fa-exclamation"
+                                                                                              style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Không giới hạn</div>
+                            </div>
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Giảm 100k</div> <img class="smallBonus"
+                                                                                         src="~/Content/Images/ShinhanBank.png">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Đơn từ 700k</div><i class="fas fa-exclamation"
+                                                                                              style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Không giới hạn</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Giảm 150k</div> <img class="smallBonus"
+                                                                                         src="~/Content/Images/ShinhanBank.png">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Đơn từ 1 triệu</div><i class="fas fa-exclamation" style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Không giới hạn</div>
+                            </div>
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Giảm 30k</div> <img class="smallBonus"
+                                                                                        src="~/Content/Images/ShinhanBank.png">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Đươn từ 200k</div><i class="fas fa-exclamation" style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Không giới hạn</div>
+                            </div>
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Giảm 50k</div> <img class="smallBonus"
+                                                                                        src="~/Content/Images/ShinhanBank.png">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Đơn từ 300k</div><i class="fas fa-exclamation"
+                                                                                              style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Không giới hạn</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Giảm 70k</div> <img class="smallBonus"
+                                                                                        src="~/Content/Images/ShinhanBank.png">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Đơn từ 500k</div><i class="fas fa-exclamation"
+                                                                                              style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Không giới hạn</div>
+                            </div>
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Freeship</div> <img class="smallBonus"
+                                                                                        src="~/Content/Images/ShinhanBank.png">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Thẻ Shinhan Classic</div><i class="fas fa-exclamation" style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Số lượng có hạn</div>
+                            </div>
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Giảm 50k</div> <img class="smallBonus"
+                                                                                        src="~/Content/Images/ShinhanBank.png">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Đơn từ 200k</div><i class="fas fa-exclamation"
+                                                                                              style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Sắp cháy lượt</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Giảm 50k</div> <img src="~/Content/Images/MBbank.png"
+                                                                                        style="width:25%;">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">Đơn từ 500k</div><i class="fas fa-exclamation"
+                                                                                              style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Số lượng có hạn</div>
+                            </div>
+                            <div class="cell">
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div style="font-weight: bold;">Freeship</div> <img src="~/Content/Images/tikiCARD.PNG">
+                                </div>
+                                <div style="justify-content: space-between; display: flex;">
+                                    <div class="small" style="color:gray">TikiCARD</div><i class="fas fa-exclamation"
+                                                                                           style="color:rgb(35, 144, 233)"></i>
+                                </div>
+                                <div class="small" style="color: orange; font-style:italic;">Không giới hạn</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="method" style="margin-top: -1.5rem; display:flex;">
+                    <input class="option" type="radio" name="payment">
+                    <div style="font-weight: bold; margin-top:0.9rem; margin-left: -0.9rem;">
+                        <img src="~/Content/Images/atmCard.jpg" style="width:20%">
+                    </div>
+                    <div style="font-weight: bold; margin-top:1.1rem; margin-left:-7.5rem">
+                        Thẻ ATM nội địa/Internet
+                        Banking (Hỗ trợ Internet Banking)
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contentRight" style="float:right">
+            <div id="delivery" style="padding: 15px;">
+                <div style="justify-content: space-between; display: flex; padding: 0px 0px 10px;">
+                    <div style="color: gray;">Giao tới</div>
+                    <div></div>
+                    <div style="color: rgb(24, 163, 243); font-size: small;">Thay đổi</div>
+                </div>
+                <div style="justify-content: space-between; display: flex; font-size: small; font-weight: bold;">
+                    <div>Quoc Tran Bao</div>
+                    <div>0328370905</div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div style="display: block; font-size: small; color:gray;">
+                    <span class="hl_green"
+                          style="background-color: rgb(241, 241, 241);">Nhà</span> 2 Trần Hưng Đạo, Phường 04, Quận 5, Hồ
+                    Chí Minh
+                </div>
+            </div>
+            <div class="applyDis">
+                <div style="justify-content: space-between; display: flex; padding: 0px 0px 10px; font-size: smaller;">
+                    <div style="font-weight: bold;">Tiki Khuyến Mãi</div>
+                    <div style="color:gray">Có thể chọn 2</div>
+                </div>
+                <div></div>
+                <div style="color:rgb(24, 163, 243)"><i class="fas fa-tags"></i>Chọn hoặc nhập Khuyến mãi khác</div>
+            </div>
+            <div class="applyDis">
+                <div style="justify-content: space-between; display: flex; padding: 0px 0px 10px; font-size: smaller;">
+                    <div style="display: block;">
+                        <div style="font-weight: bold">
+                            <i class="fas fa-circle"
+                               style="color:rgb(204, 60, 204); padding-right:5px;"></i>Chưa áp dụng giảm giá
+                        </div>
+                        <div style="color:gray;">Vì chưa đạt đủ số lượng ASA</div>
+                    </div>
+                    <div><i class="fas fa-toggle-off" style="font-size: 1.5rem;"></i></div>
+                </div>
+                <hr>
+                <div style="justify-content: space-between; display: flex; padding: 0px 0px 10px; font-size: smaller;">
+                    <div style="display: block;">
+                        <div style="font-weight: bold">
+                            <i class="fas fa-circle"
+                               style="color:rgb(237, 215, 10); padding-right:5px;"></i>Chưa áp dụng giảm giá
+                        </div>
+                        <div style="color:gray;">Vì sở hữu chưa đủ tối thiểu 1000 Xu</div>
+                    </div>
+                    <div><i class="fas fa-toggle-off" style="font-size: 1.5rem;"></i></div>
+                </div>
+            </div>
+            <div class="applyDis" style="display: flex;">
+                <input type="checkbox" style="margin-top:-1.1rem;">
+                <div style="font-size: small;">
+                    Yêu cầu hóa đơn<br>
+                    <span style="color:gray;">Tiki Trading chỉ xuất hóa đơn điện tử</span>
+                </div>
+            </div>
+            <div class="applyDis">
+                <div style="display: flex; justify-content: space-between;">
+                    <div style="font-weight: bold;">Đơn hàng</div>
+                    <div><span style="color:rgb(24, 163, 243)">Thay đổi</span></div>
+                </div>
+                <div style="font-size:small; color:gray;">1 sản phẩm. <span style="color:rgb(24, 163, 243)">Xem thông tin</span></div>
+                <hr>
+                <div style="display: flex; justify-content: space-between; font-size: small;">
+                    <div>Tạm tính</div>
+                    <div>8.480.000đ</div>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-size: small;">
+                    <div>Phí vận chuyển</div>
+                    <div>42.000đ</div>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-size: small;">
+                    <div>Khuyến mãi vận chuyển</div>
+                    <div>-30.000đ</div>
+                </div>
+                <hr>
+                <div style="display: flex; justify-content: space-between; font-size: small;">
+                    <div>Tổng tiền</div>
+                    <div style="font-size: 1.1rem; color:red">8.492.000<u>đ</u></div>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-size: small;">
+                    <div></div>
+                    <div>(Đã bao gồm VAT nếu có)</div>
+                </div>
+                <p style="font-weight: bold;"><span style="color:rgb(24, 86, 243); font-style: italic; font-weight: bolder;">FREESHIP</span> đã được áp dụng!</p>
+                <button style="width:100%; height:2rem; color:white; background-color: red; border: none;">Đặt hàng</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
